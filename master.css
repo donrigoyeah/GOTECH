@@ -1,0 +1,279 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+  font-weight: 400;
+  width: 80%;
+  text-align: center;
+  background-color: white;
+}
+
+a{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+a:hover{
+  color: #A174DB;
+  text-decoration:
+}
+
+a::after{
+  /* +++ POINT BELOW SELECTED LINK +++ */
+}
+
+h1{
+  font-size: 46px;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h4{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h5{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.fat{
+  font-weight: 700;
+}
+
+.top_puffer{
+  margin-bottom: 100px;
+}
+
+.button_location{
+  text-align: center;
+}
+
+.button1{
+  background-color: #A174DB;
+  color: white;
+  border-radius: 10px;
+  border-color: #A174DB;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button2{
+  background-color: white;
+  color: #A174DB;
+  border-radius: 10px;
+  border-color: #A174DB;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* +++++++ NAVIGATION BAR +++++++*/
+.nav_bar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.logo{
+  display: inline-block;
+  padding: 0 30px; /* top/bottom left/right */
+  display: inline;
+  width: auto;
+  margin-top: 30px;
+}
+
+.nav_items{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_item{
+  margin: auto;
+  flex: 1 1 auto;
+  padding: 20px 20px;
+}
+
+.search_bar{
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.input_search{
+display: inline;
+position: relative;
+}
+
+.search_button{
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.lupe{
+top: 0;
+bottom: 0;
+padding-right: 5px;
+}
+
+
+/* +++++ WELCOME TEXT  ++++++*/
+
+
+.welcome{
+  text-align: center;
+  padding-top: 60px;
+}
+
+.welcome_text{
+  padding: 50px 50px;
+}
+
+.image1{
+  width: 90%;
+  padding-top: 30px;
+}
+
+/* +++THE PROCESS+++ */
+.theprocess{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+}
+
+.theprocess_text{
+  width: 49%;
+  flex: 1 1 auto;
+  padding: 0 50px;
+}
+
+.process_image{
+  width: 49%;
+  flex: 1 1 auto;
+}
+
+/* +++ WE ARE HERE ++++ */
+.we_are_here{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.we_are_here_text{
+  flex: 1 1 auto;
+  padding: 0 50px;
+}
+
+.we_are_here_imgage{
+  flex: 1 1 auto;
+}
+
+/* ++++Speciality +++++*/
+.speciality{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.speciality_boxes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.quickresponse{
+  flex: 1 1 auto;
+  padding: 0 30px;
+}
+
+.greatcommunity{
+  flex: 1 1 auto;
+  padding: 0 30px;
+}
+
+.customersatisfaction{
+  flex: 1 1 auto;
+  padding: 0 30px;
+}
+
+
+/* ++++++ OUR PRODUCING PRODUCTS +++++*/
+.our_products{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.our_products_text{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.our_products_boxes{
+  /*position: relative;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* HOW TO HAVE FIXED WIDTH OF POSSIBLE BOXES WITHOUT ALIGN*/
+  /* width: 30% */
+
+
+}
+
+.our_products_box{
+  /*WHY SOME BOXES WIDER THAN OTHERSS?!?!?!  need fix size */
+  width: 175px;
+  height: 235px;
+  width: 30%;
+  flex: 1 1 none;
+  padding: 5px 5px;
+  margin: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px;
+  bottom: 0px;
+}
+
+.green{
+  font-family: 'Poppins', sans-serif;
+  color: #49BE55;
+  text-decoration: none;
+  /* HOW TO POSITION LINK AT BOTTOM OF BOX */
+  bottom: 0px;
+  top: 200px;
+}
+
+.green:hover{
+  text-decoration: underline;
+}
+
+/* ++++ WHAT OUR CLIENTS SAY +++++ */
+.what_clients_say{
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+/* +++++ CONTACT ME ++++++++ */
+.contact_me{
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+
+
+
+/* +++++ CONTACT ME ++++++ */

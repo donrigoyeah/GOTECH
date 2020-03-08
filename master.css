@@ -206,17 +206,7 @@ padding-right: 5px;
     flex-direction: row;
 }
 
-.quickresponse{
-  flex: 1 1 auto;
-  padding: 0 30px;
-}
-
-.greatcommunity{
-  flex: 1 1 auto;
-  padding: 0 30px;
-}
-
-.customersatisfaction{
+.specialty_box{
   flex: 1 1 auto;
   padding: 0 30px;
 }
@@ -235,7 +225,6 @@ padding-right: 5px;
 }
 
 .our_products_boxes{
-  /*position: relative;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -248,13 +237,11 @@ padding-right: 5px;
 
 .our_products_box{
   /*WHY SOME BOXES WIDER THAN OTHERSS?!?!?!  need fix size */
-  width: 175px;
-  height: 235px;
-  width: 30%;
+  width: 25%;
   /*flex: 1 1 auto;*/
   display: flex;
   flex-direction: column;
-  padding: 5px 5px;
+  padding: 15px 45px;
   margin: 10px 10px;
   border-radius: 10px;
   box-shadow: 0 0 2px;
@@ -289,6 +276,11 @@ flex: 1 1 auto;
 .contact_me{
   padding-top: 20px;
   text-align: center;
+}
+
+.contact_div{
+  background-image: url("images/carrer_formular.png");
+  height: 872px;
 }
 
 
@@ -329,8 +321,9 @@ flex: 1 1 auto;
 }
 
 .findseat_joboffers{
-
+  /* nothing for now */
 }
+
 
 #findseat_joboffers_buttons{
   padding: 20px;
